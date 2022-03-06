@@ -1,0 +1,143 @@
+.contactc1 {
+  padding: 3% 5%;
+  height: 250px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 39, 114, 0.507))), url("../image/125.jpg");
+  background-image: linear-gradient(rgba(39, 39, 114, 0.507)), url("../image/125.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contactc1 h1 {
+  margin-bottom: 10px;
+}
+
+.contactc1 .breadcrumb {
+  background-color: transparent;
+}
+
+.contactc1 span a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .contactc1 {
+    height: 150px;
+  }
+}
+
+.contactc2 {
+  padding: 3% 5%;
+}
+
+.contactc2 .heading h1 {
+  margin-bottom: 100px;
+  color: #2e3192;
+  font-weight: bold;
+}
+
+.contactc2 .inputfield1 input {
+  height: 57px;
+  width: 100%;
+  border-radius: 13.5px;
+  border: 2px solid #2e3192;
+  padding-left: 20px;
+}
+
+.contactc2 .inputfield1 textarea {
+  height: 150px;
+  width: 100%;
+  border-radius: 13.5px;
+  border: 2px solid #2e3192;
+  padding: 20px;
+}
+
+.contactc2 .inputfield1 button {
+  margin-top: 20px;
+  background-color: #2e3192;
+  width: 159px;
+  height: 58px;
+  margin-right: 80px;
+  border-radius: 9px;
+  border: none;
+  color: white;
+}
+
+.contactc2 .inputfield1 button:hover {
+  background-color: #2fcbaa;
+  color: white !important;
+}
+
+.contactc2 ul li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.contactc2 .shortInfo {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contactc2 .shortInfo i {
+  margin-right: 10px;
+}
+
+@media (max-width: 1300px) {
+  .contactc2 .inputfield1 textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 445px) {
+  .contactc2 .inputfield1 input {
+    width: 100%;
+  }
+  .contactc2 .inputfield1 textarea {
+    width: 100%;
+  }
+}
+
+.contactc3 {
+  padding: 3% 5%;
+  background-image: url("../image/bgbanner.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.contactc3 h1 {
+  color: #2e3192;
+  margin: 20px 0px;
+}
+
+.contactc3 .inputfield2 input {
+  width: 100%;
+  height: 52px;
+  border-radius: 9px;
+  border: 2px solid #2e3192;
+  padding-left: 20px;
+}
+
+.contactc3 button {
+  background-color: #2e3192;
+  border-radius: 9px;
+  border: none;
+  color: white;
+  width: 32.5%;
+  height: 52px;
+}
+
+.contactc3 button:hover {
+  background-color: #2fcbaa;
+  color: white !important;
+}
+/*# sourceMappingURL=contact.css.map */

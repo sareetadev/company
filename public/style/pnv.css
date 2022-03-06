@@ -1,0 +1,72 @@
+
+.MainPointTitle{
+  color: rgb(46, 49, 146);
+  font-weight: 600;
+}
+
+
+
+
+.pnvc1 {
+    padding: 3% 5%;
+    height: 250px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 39, 114, 0.507))), url("../image/banner1.jpg");
+    background-image: linear-gradient(rgba(39, 39, 114, 0.507)), url("../image/banner1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .pnvc1 h1 {
+    margin-bottom: 10px;
+  }
+  
+  .pnvc1 .breadcrumb {
+    background-color: transparent;
+  }
+  
+  .pnvc1 span a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 1000px) {
+    .pnvc1 {
+      height: 150px;
+    }
+  }
+
+
+
+
+
+
+  .pnvc2{
+      padding: 3% 5%;
+  }
+
+  .pnvc2 .heading h1{
+      color: rgb(46, 49, 146);
+      font-weight: bold;
+      margin-bottom: 50px;
+  }
+
+  .pnvc2 ul li{
+      list-style: none;
+      margin-bottom: 20px;
+  }
+
+  
+  .pnvc2 ul li i{
+    color: rgb(46, 49, 146);
+    margin-right: 15px;
+}

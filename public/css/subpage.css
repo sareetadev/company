@@ -1,0 +1,117 @@
+
+
+.msgMD, .serviceLS, .mNv{
+    padding: 3% 5%;
+
+}
+
+.msgMD h1, .serviceLS h1{
+    color: #2e3192;
+    margin-bottom: 15px;
+
+}
+
+.msgMD img{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.msgMD .msgPara{
+    margin-top: 20px;
+}
+
+.serviceLS img{
+    height: 100%;
+    width: 100%;
+}
+
+.serviceLS .topic , .serviceLS .col-12 p {
+    color: #2e3192 !important;
+}
+
+.serviceLS .col-12 ul li{
+list-style: none;
+}
+
+
+.serviceLS .col-12 ul li i{
+    color: #2e3192 !important;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+
+.mNv img{
+    width: 80%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.685);
+}
+
+.mNv h1{
+    color: #2e3192;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ParaHead{
+    color: #2e3192;
+    font-weight: bold;
+}
+
+
+/* career form */
+/* .applyform{
+    padding: 3% 5%;
+}
+
+.applyform .col-12 {
+    color: #2e3192;
+    margin-bottom: 20px;
+}
+
+.applyform .col input{
+    width: 400px;
+    border-radius: 3px;
+    border: 2px solid #2e3192;
+    padding: 10px;
+}
+
+.applyform .col button{
+    color: white;
+    border: none;
+    background-color: #2e3192;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+@media(max-width:445px) {
+    .applyform .col input{
+        width: 300px;
+        border-radius: 3px;
+        border: 2px solid #2e3192;
+        padding: 10px;
+    }
+} */
+
+
+.applyform{
+    padding: 3% 5%;
+}
+
+.applyform .col-12 {
+    color: #2e3192;
+    margin-bottom: 20px;
+}
+
+.applyform .row .col-md-4 input{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 9px;
+    border: 2px solid #2e3192;
+}
+.applyform .col button{
+    color: white;
+    border: none;
+    background-color: #2e3192;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
